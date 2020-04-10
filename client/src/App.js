@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import axios from "axios";
+import axios from 'axios';
+import Player from './components/Player';
+import Navbar from './components/Navbar';
 
 
 //Refactored functional component to be class component
