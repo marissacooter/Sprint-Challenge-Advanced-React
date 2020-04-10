@@ -19,4 +19,9 @@ test("Testing to confirm that player cards are visible", () => {
   getByTestId("Player");
 });
 
+test("Testing to see if nav bar is visible", () => {
+  const { getByTestId } = render(<App/>);
+  getByTestId("Navbar");
+});
+
 
